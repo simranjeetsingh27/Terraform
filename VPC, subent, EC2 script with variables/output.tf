@@ -1,5 +1,5 @@
 output "vpc_cidr" {
-    value = aws_vpc.ninjavpc.id
+    value = aws_vpc.nnjavpc.id
   
 }
 
