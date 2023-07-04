@@ -1,4 +1,4 @@
-resource "aws_instance" "Bastin" {
+resource "aws_instance" "Bastion" {
   ami = "ami-0a940cb939351ccca"
   instance_type = "t2.small"
   vpc_security_group_ids = [var.sg-bashion-id]
