@@ -9,7 +9,7 @@ module "VPC" {
 }
 
 module "pubSubnet" {
-  source = "./C:/Users/esinmsi/OneDrive - Ericsson/Personal/AWS/AWS_Assigment/Simranjeet_Aws_Assigment9/custommodules/Modules/Subnet"
+  source = "./C:/Users/esinsi/OneDrive - Ericsson/Personal/AWS/AWS_Assigment/Simranjeet_Aws_Assigment9/custommodules/Modules/Subnet"
   vpc_id = module.VPC.vpcid
   vpc_cidr = module.VPC.vpccidr
 }
