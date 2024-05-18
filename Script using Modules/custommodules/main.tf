@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 module "VPC" {
-  source = "./C:/Users/esinmsi/OneDrive - Ericsson/Personal/AWS/AWS_Assiment/Simranjeet_Aws_Assigment9/custommodules/Modules/VPC"
+  source = "./C:/Users/esinmsi/OneDrive - Ericsson/Personal/AWS/AWS_Assiment/Simranjeet_Aws_Assigent9/custommodules/Modules/VPC"
   vpccidr = var.vpccidrout
   vpcname = var.vpcnameout
 }
