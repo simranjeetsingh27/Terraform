@@ -1,4 +1,4 @@
-data "http" "myip" {
+data "http" "myipp" {
   url = "http://ipv4.icanhazip.com"
 }
 
